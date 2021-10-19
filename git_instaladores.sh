@@ -31,7 +31,7 @@
 
 # Git auth
 # Username: lkalabric
-# Password=personal token: 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
+# Password=personal token: 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
 
 # Pull changes from server
 #git pull
