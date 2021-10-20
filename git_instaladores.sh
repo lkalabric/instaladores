@@ -32,5 +32,5 @@
 
 # Git auth
 # Username: lkalabric
-# Scopes: repo; admin:org; user
+# The minimum required scopes are 'repo', 'read:org', 'workflow'.
 # Password=personal token: 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
