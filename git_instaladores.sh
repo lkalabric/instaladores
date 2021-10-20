@@ -13,26 +13,24 @@
 # https://docs.github.com/pt/repositories/creating-and-managing-repositories/cloning-a-repository
 
 # Quick setup — if you’ve done this kind of thing before
-# https://github.com/lkalabric/instaladores.git
+# Remoto repo URL https://github.com/lkalabric/instaladores.git
 
 # Configure git local
-#git config --global user.name "lkalabric"
-#git config --global user.email "luciano.kalabric@fiocruz.br"
+# git config --global user.name "lkalabric"
+# git config --global user.email "luciano.kalabric@fiocruz.br"
 
-# Clone remote to local (apenas uma vez)
-#git clone https://github.com/lkalabric/instaladores.git /home/brazil1/repos/instaladores
+# Clone remote to local
+# git clone https://github.com/lkalabric/instaladores.git /home/brazil1/repos/instaladores
 
-# Commit local
-#git commit -a -m "Atualização do script assembly.sh."
-#git branch -M main
+# Commit
+# git add -A
+# git commit -a -m "Atualização do script assembly.sh."
 
-# Push changes to the server
-#git push -u origin main
+# Pull/Push changes to the server
+# git pull
+# git push -u origin main
 
 # Git auth
 # Username: lkalabric
 # Scopes: repo; admin:org; user
-# Password=personal token: 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
-
-# Pull changes from server
-#git pull
+# Password=personal token: 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
