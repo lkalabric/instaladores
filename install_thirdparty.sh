@@ -80,6 +80,7 @@
 
 # Instalar RepeatMasker
 # Link: https://www.repeatmasker.org/RepeatMasker/
-# Requesitos: python3, biblioteca pyton h5py, Cross_Match, TRF, hmmer 
+# Requesitos: python3, biblioteca pyton h5py, Cross_Match, RMBlast, TRF, hmmer (bioconda)
+# wget http://www.repeatmasker.org/rmblast-2.11.0+-x64-linux.tar.gz
 # wget https://www.repeatmasker.org/RepeatMasker/RepeatMasker-4.1.2-p1.tar.gz
 # tar xzvf RepeatMasker-4.1.2-p1.tar.gz
