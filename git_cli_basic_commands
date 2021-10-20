@@ -57,10 +57,10 @@
 #
 
 # Clone remote to local (apenas uma vez)
-#git clone https://github.com/lkalabric/instaladores.git /home/brazil1/repos/instaladores
+# git clone https://github.com/lkalabric/instaladores.git /home/brazil1/repos/instaladores
 
 # Viewing information about the remote repo
-# git remot -v
+# git remote -v
 # git branch -a
 
 # Commit changes
@@ -70,8 +70,8 @@
 # git log (see commit)
 
 # Push changes
-# git pull origin master
-# git push origin master
+# git pull origin main
+# git push origin main
 
 #
 # Option 3 - Branch for desire feature
@@ -90,11 +90,11 @@
 # git branch -a
 
 # Merge a branch
-# git checkout master
-# git pull origin master
+# git checkout main
+# git pull origin main
 # git branch --merged (see branch before merge)
 # git merge feature
-# git puch origin master
+# git puch origin main
 
 # Delete a branch
 # git branch --merged
