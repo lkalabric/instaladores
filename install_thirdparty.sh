@@ -83,4 +83,5 @@
 # Requesitos: python3, biblioteca pyton h5py, Cross_Match, RMBlast, TRF, hmmer (bioconda)
 # wget http://www.repeatmasker.org/rmblast-2.11.0+-x64-linux.tar.gz
 # wget https://www.repeatmasker.org/RepeatMasker/RepeatMasker-4.1.2-p1.tar.gz
+# wget https://www.dfam.org/releases/Dfam_3.2/families/Dfam.h5.gz
 # tar xzvf RepeatMasker-4.1.2-p1.tar.gz
