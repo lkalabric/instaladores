@@ -3,16 +3,17 @@
 # https://gist.github.com/patrickmmartin/5b6b2ddecd29d6a1b2ffee2d8eea31ec
 
 # Instalar e configurar o Miniconda
-#wget https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh -P ~/Downloads
-#bash ~/Downloads/Miniconda3-latest-Linux-x86_64.sh
+# wget https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh -P ~/Downloads
+# bash ~/Downloads/Miniconda3-latest-Linux-x86_64.sh
 # Instalar pacotes Bioconda
-#https://anaconda.org/
-#source activate base
-#conda install h5py
-#conda install -c bioconda iqtree
-#conda install -c bioconda trimmomatic
-#conda install -c bioconda cutadapt # Requer gcc 9
-#conda install -c bioconda nanofilt
+# https://anaconda.org/
+# source activate base
+# conda install h5py
+# conda install -c bioconda iqtree
+# conda install -c bioconda trimmomatic
+# conda install -c bioconda cutadapt # Requer gcc 9
+# conda install -c bioconda nanofilt
+# conda install -c bioconda hmmer
 
 # Configurar miniconda para outros usuários
 #https://docs.conda.io/projects/conda/en/latest/user-guide/configuration/admin-multi-user-install.html
@@ -77,8 +78,8 @@
 #cp swat ~/bin/phred-phrap-consed/bin
 #cp phrapview ~/bin/phred-phrap-consed/bin
 
-# Instalar UGENE
-#wget https://github.com/ugeneunipro/ugene/releases/download/40.1/ugene-40.1-linux-x86-64.tar.gz
-#tar xzvf ugene-40.1-linux-x86-64.tar.gz
-# Alternativamente, pode instalar uma versão do respositório Linux
-#sudo apt install ugene
+# Instalar RepeatMasker
+# Link: https://www.repeatmasker.org/RepeatMasker/
+# Requesitos: python3, biblioteca pyton h5py, Cross_Match, TRF, hmmer 
+# wget https://www.repeatmasker.org/RepeatMasker/RepeatMasker-4.1.2-p1.tar.gz
+# tar xzvf RepeatMasker-4.1.2-p1.tar.gz
