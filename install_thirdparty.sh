@@ -93,3 +93,7 @@
 # tar xzvf glimmer302b.tar.gz
 # cd glimmer3.02/src
 # make
+
+# Instalar Augustus
+# Link: http://bioinf.uni-greifswald.de/augustus/
+# sudo apt install augustus augustus-data augustus-doc
