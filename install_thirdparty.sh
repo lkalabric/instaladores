@@ -88,6 +88,8 @@
 
 # Instalar Glimmer
 # Link: http://ccb.jhu.edu/software/glimmer/index.shtml
-wget http://ccb.jhu.edu/software/glimmer/glimmer302b.tar.gz -P ~/Downloads
-cd ~/Downloads
-tar xzvf glimmer302b.tar.gz
+# wget http://ccb.jhu.edu/software/glimmer/glimmer302b.tar.gz -P ~/Downloads
+# cd ~/Downloads
+# tar xzvf glimmer302b.tar.gz
+# cd glimmer3.02/src
+# make
