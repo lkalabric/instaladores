@@ -5,14 +5,14 @@
 # URL:
 # last update: 13 OUT 2021
 # Objetive: Install Ubuntu packages and keep record of all installations
-# Syntax: ./install_packages.sh <command>
+# Syntax: ./install_linuxpackages.sh <command>
 # Link: https://stackoverflow.com/questions/1298066/how-can-i-check-if-a-package-is-installed-and-install-it-if-not
 
 COMMAND=$1
 HOME=/home/kalabric
 
 if [ $# = 0 ]; then
-	echo "Sintax error: ./install_packages.sh <command>"
+	echo "Sintax error: ./install_linuxpackages.sh <command>"
 	exit 0
 fi
 
