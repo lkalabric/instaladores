@@ -97,3 +97,18 @@
 # Instalar Augustus
 # Link: http://bioinf.uni-greifswald.de/augustus/
 # sudo apt install augustus augustus-data augustus-doc
+
+# Instalar gmap
+# Link: https://github.com/juliangehring/GMAP-GSNAP
+# wget http://research-pub.gene.com/gmap/src/gmap-gsnap-2021-12-17.tar.gz
+# tar -xvf gmap-gsnap-2021-12-17.tar.gz
+# nano config.site
+# .configure
+# make
+# make check
+# make install
+# gmap_build -d GRCh38_p13 -g data/GRCh38/GRCh38.p13.genome.fa.gz
+### GMAP SAMTOOLS Pipeline
+# gmapl -d GRCh38_p13 -A barcode01.fasta - t ${THREADS} -O ### Para genomas grandes usar gmapl
+# gsnap -d GRCh38_p13 barcode01.fastq ou cat barcode01.fastq | gsnap -d GRCh38_p13
+# samtools view -f 4 file.bam > unmapped.sam
